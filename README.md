@@ -1,5 +1,5 @@
 # Scrape_Inc5000
-Creating an ETL to scrape INC5000 data and export data to be used for further analysis
+Creating an ETL to scrape INC5000 data and export the data to be used for further analysis (company, industry, competitor)
 
 Found hidden API in INC5000 backend through the Network > Fetch/XHR tab tab 
   allowing the extraction of information directly from the backend server in the form of a JSON object.
