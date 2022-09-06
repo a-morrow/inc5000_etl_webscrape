@@ -2,19 +2,20 @@ import pandas as pd
 import collections
 
 data_files = [
-    'C:\\Users\\amorrow\\Documents\\inc5000_Extracts\\2010_inc5000_extract.csv',
-    'C:\\Users\\amorrow\\Documents\\inc5000_Extracts\\2011_inc5000_extract.csv',
-    'C:\\Users\\amorrow\\Documents\\inc5000_Extracts\\2012_inc5000_extract.csv',
-    'C:\\Users\\amorrow\\Documents\\inc5000_Extracts\\2013_inc5000_extract.csv',
-    'C:\\Users\\amorrow\\Documents\\inc5000_Extracts\\2014_inc5000_extract.csv',
-    'C:\\Users\\amorrow\\Documents\\inc5000_Extracts\\2015_inc5000_extract.csv',
-    'C:\\Users\\amorrow\\Documents\\inc5000_Extracts\\2016_inc5000_extract.csv',
-    'C:\\Users\\amorrow\\Documents\\inc5000_Extracts\\2017_inc5000_extract.csv',
-    'C:\\Users\\amorrow\\Documents\\inc5000_Extracts\\2018_inc5000_extract.csv',
-    'C:\\Users\\amorrow\\Documents\\inc5000_Extracts\\2019_inc5000_extract.csv',
-    'C:\\Users\\amorrow\\Documents\\inc5000_Extracts\\2020_inc5000_extract.csv',
-    'C:\\Users\\amorrow\\Documents\\inc5000_Extracts\\2021_inc5000_extract.csv',
-    'C:\\Users\\amorrow\\Documents\\inc5000_Extracts\\2022_inc5000_extract.csv']
+    'filepath\\file1.csv',
+    'filepath\\file2.csv',
+    'filepath\\file3.csv',
+    'filepath\\file4.csv',
+    'filepath\\file5.csv',
+    'filepath\\file6.csv',
+    'filepath\\file7.csv',
+    'filepath\\file8.csv',
+    'filepath\\file9.csv',
+    'filepath\\file10.csv',
+    'filepath\\file11.csv',
+    'filepath\\file12.csv',
+    'filepath\\file13.csv']
+
 
 extract_columns = ['inc5000companyId', 'rank', 'company',  # incID, rank, companyName
                    'industry', 'founded',  # industry, yrFounded
