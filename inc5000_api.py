@@ -53,7 +53,7 @@ def transform(results, year):
 
 
 def load(df, year):
-    df.to_csv(f"C:\\Users\\amorrow\\Documents\\inc5000_Extracts\\{year}_inc5000_extract.csv", index=False)
+    df.to_csv(f"...\\...\\...\\...\\....\\{year}_inc5000_extract.csv", index=False)
 
 
 def main():
